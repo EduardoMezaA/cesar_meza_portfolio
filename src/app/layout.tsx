@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Cesar Eduardo Meza - Web Developer",
     description:
       "I build scalable web applications focused on performance, usability, and clean design.",
-    url: "https://portfolio-cesar-meza.vercel.app",
+    url: "https://cesar-meza-portfolio.vercel.app",
     siteName: "Cesar Eduardo Meza - Portfolio",
     images: [
       {
