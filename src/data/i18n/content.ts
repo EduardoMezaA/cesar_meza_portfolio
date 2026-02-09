@@ -24,7 +24,7 @@ export const content = {
     },
 
     skills: {
-        backend: ["PHP", "Node.js", "Express"],
+        backend: ["PHP", "Node.js", "Express", "Python"],
         frontend: ["JavaScript", "TypeScript", "React", "Vue", "Tailwind", "Bootstrap"],
         databases: ["SQL Server", "MySQL", "MongoDB", "Firebase"],
         tools: ["Git", "GitHub", "Docker", "Firebase Hosting", "AWS (basic)"],
