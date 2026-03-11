@@ -24,7 +24,7 @@ export const content = {
     },
 
     skills: {
-        backend: ["PHP", "Node.js", "Express", "Python"],
+        backend: ["Node.js", "PHP", "Express", "Python"],
         frontend: ["JavaScript", "TypeScript", "React", "Vue", "Tailwind", "Bootstrap"],
         databases: ["SQL Server", "MySQL", "MongoDB", "Firebase"],
         tools: ["Git", "GitHub", "Docker", "Firebase Hosting", "AWS (basic)"],
@@ -35,7 +35,7 @@ export const content = {
         {
             role: { en: "Web Developer", es: "Desarrollador Web" },
             company: "AUTOSISTEMA DE TORREÓN",
-            period: "Jun 2025 – Dec 2025",
+            period: "Aug 2024 – Feb 2026",
             bullets: {
                 en: [
                     "Developed internal dashboards and real-time monitoring systems",
@@ -94,7 +94,7 @@ export const content = {
                     "Incremento del 100% en visibilidad de KPIs",
                 ],
             },
-            stack: ["PHP", "JavaScript", "SQL Server", "Highcharts"],
+            stack: ["React", "Node.js", "SQL Server", "Highcharts"],
         },
 
         {
@@ -117,7 +117,7 @@ export const content = {
                     "Reducción de ~30% en pérdidas",
                 ],
             },
-            stack: ["PHP", "JavaScript", "Bootstrap", "SQL Server"],
+            stack: ["React", "Node.js", "Tailwind CSS", "SQL Server"],
         },
 
         {
