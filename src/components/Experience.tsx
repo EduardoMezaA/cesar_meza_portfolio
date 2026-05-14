@@ -14,7 +14,7 @@ export default function Experience() {
           <h3 className="font-semibold">
             {job.role[lang]} — {job.company}
           </h3>
-          <p className="text-sm text-zinc-500">{job.period}</p>
+          <p className="text-sm text-zinc-500">{job.period[lang]}</p>
 
           <ul className="list-disc pl-5 mt-3 text-zinc-400">
             {job.bullets[lang].map((b) => (

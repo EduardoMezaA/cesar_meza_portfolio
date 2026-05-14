@@ -10,11 +10,12 @@ export default function Skills() {
     <section className="py-14 md:py-28">
       <h2 className="section-title">{lang === "en" ? "Skills" : "Habilidades"}</h2>
 
-      <SkillGroup title="Backend" items={skills.backend} />
       <SkillGroup title="Frontend" items={skills.frontend} />
-      <SkillGroup title="Databases" items={skills.databases} />
-      <SkillGroup title="Tools & DevOps" items={skills.tools} />
-      <SkillGroup title="UI / UX" items={skills.uiux} />
+      <SkillGroup title="Backend" items={skills.backend} />
+      <SkillGroup title={lang === "en" ? "Databases" : "Bases de Datos"} items={skills.databases} />
+      <SkillGroup title={lang === "en" ? "Tools & DevOps" : "Herramientas & DevOps"} items={skills.tools} />
+      <SkillGroup title="UI / UX" items={skills.uiux[lang]} />
+      <SkillGroup title={lang === "en" ? "AI" : "IA"} items={skills.ai[lang]} />
     </section>
   );
 }

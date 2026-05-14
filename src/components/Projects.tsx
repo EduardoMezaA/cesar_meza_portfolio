@@ -24,7 +24,7 @@ export default function Projects() {
           <motion.div
             key={project.name}
             whileHover={{ scale: 1.01 }}
-            className="card card-hover p-6"
+            className="card card-hover p-6 flex flex-col"
           >
 
               {/* Image */}
@@ -54,7 +54,7 @@ export default function Projects() {
                 ))}
               </ul>
 
-              <div className="mt-4 flex flex-wrap gap-2">
+              <div className="mt-auto pt-4 flex flex-wrap gap-2">
                 {project.stack.map((tech) => (
                   <span key={tech} className="tag">
                     {tech}
