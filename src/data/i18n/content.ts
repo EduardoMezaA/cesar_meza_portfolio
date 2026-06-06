@@ -24,10 +24,10 @@ export const content = {
     },
 
     skills: {
-        backend: ["Node.js", "Express", "PHP", "Python"],
+        backend: ["Node.js", "Express", "PHP", "Supabase", "Firebase"],
         frontend: ["React", "Next.js", "Vue", "Angular", "JavaScript(ES6+)", "TypeScript", "Tailwind", "Bootstrap"],
         databases: ["SQL Server", "MySQL", "MongoDB", "Firebase"],
-        tools: ["Git", "GitHub", "Docker", "Firebase Hosting"],
+        tools: ["Git", "GitHub", "Docker"],
         uiux: {
             en: ["Figma", "Responsive Design", "Design-to-Code"],
             es: ["Figma", "Diseño Responsivo", "Diseño a código"],
